@@ -1,10 +1,22 @@
-PyCK
+Python Click House
 ===
+
+![home](https://github.com/Naategh/PyCk/raw/master/logo.jpeg)
+
+Python Click House is a simple project contains some useful and simple python scripts that may be helpful in penetration testing. 
+
+## Requirements
+
+Python 3.5 or later.
 
 Installation
 ---
 
-`pip3 install --user .`
+```bash
+git clone git@github.com:Wanguy/pyClickHouse.git
+cd pyClickHouse
+pip3 install --user
+```
 
 Usage
 ---
@@ -46,3 +58,7 @@ session.query(
     gen_out=iteration.file_out('2.csv')
 )
 ```
+
+## License
+
+This project is licensed under the [MIT LICENSE](https://github.com/Wanguy/pyClickHouse/blob/master/LICENSE). But you can do what you want with it yet, there is no problem.
